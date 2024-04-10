@@ -18,8 +18,7 @@ function App(props) {
 }
 
 
-
-const App3=() => {
+const App2=() => {
   const [ counter, setCounter ] = useState(0)
 
   setTimeout(() => setCounter(counter + 1),1000)
@@ -32,4 +31,4 @@ const App3=() => {
   )
 }
 
-export default App
+export default App2
