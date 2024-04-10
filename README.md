@@ -31,13 +31,13 @@
 
 The AI-powered solution enables customers to integrate their specialized knowledge with OpenAI models to automate the extraction of relevant information from websites of their interest, effectively training the AI to deliver tailored results as if it were trained on their unique dataset.
 
-1. [Create a React App](#CreateReact)
+1. [1 Create a React App](#CreateReact)
 2. [Powered by Python](#architecture)
 3. [Intuitive User Interface](#architecture)
 
 You will get Unlock Your Personalized AI Assistant Effortlessly: Scrape, Upload, and Go.
 
-# Create React
+# 1. Create React
 
 Create a React App in local webserver. 
 ``` 
@@ -51,7 +51,7 @@ When you use a fragment (<>...</>), React does not add any extra elements to the
 
 So, in terms of the resulting HTML structure, the only difference is the presence or absence of the `<div>` wrapper. Both approaches are valid, but using a fragment can lead to cleaner JSX code and simpler HTML output in certain situations.
 
-### JSX
+### 1.1 JSX
 It seems like React components are returning HTML markup. However, this is not the case. The layout of React components is mostly written using JSX. Although JSX looks like HTML, we are dealing with a way to write JavaScript. Under the hood, **JSX returned by React components is compiled into JavaScript **.
 
 The compilation is handled by Babel. Projects created with create-react-app or vite are configured to compile automatically. 
@@ -59,6 +59,14 @@ The compilation is handled by Babel. Projects created with create-react-app or v
 In practice, JSX is much like HTML with the distinction that with JSX you can easily embed dynamic content by writing appropriate JavaScript within curly braces. The idea of JSX is quite similar to many templating languages, such as Thymeleaf used along with Java Spring, which are used on servers.
 
 Writing components with React is easy, and by combining components, even a more complex application can be kept fairly maintainable. Indeed, a core philosophy of React is composing applications from many specialized reusable components.
+
+### 1.2 props: passing data to components
+Do not render objects.
+
+### 1.3 Component state, event handlers
+`import { useState } from 'react':` This line imports the useState *hook* from the react library.
+
+
 
 
 # Technology Stack

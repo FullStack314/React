@@ -1,52 +1,34 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './assets/App.css'
+import { Hello1, Hello2 } from './hello.jsx';
 
-function App() {
-  const [count, setCount] = useState(0)
+function App(props) {
+  const name = "Peter"
+  const age = 25
+  const {counter} = props
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+      <Hello1 />
       <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <HW />
+      {counter}
+      <Hello2 name={name} age = {age} />
     </>
   )
 }
 
-const HW = () => {
-  const now = new Date()
-  const a = 10
-  const b = 20
-  console.log(now, a+b)
+
+const App2=() => {
+  const [ counter, setCounter ] = useState(0)
+
+  setTimeout(() => setCounter(counter + 1),1000)
+
   return (
     <div>
-      <p>Hello world, it's {now.toString()}</p>
-      <p>
-        {a} plus {b} is {a+b}
-      </p>
+      <Hello1 />
+      {counter}
     </div>
   )
 }
 
-
-export default App
+export default App2
