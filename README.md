@@ -72,7 +72,8 @@ const App = (props) => {
     <div>{counter}</div>
   )} 
 
-export default App```
+export default App
+```
 refactor:
 ```
 const App = (props) => {
