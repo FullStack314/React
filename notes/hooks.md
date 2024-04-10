@@ -6,7 +6,7 @@
 <div align="center">
 
 <a href='https://www.hypech.com'>
-<img src="./images/zhang.gif" alt="AI-Powered Cover Letter"></img></a>
+<img src="/images/zhang.gif" alt="AI-Powered Cover Letter"></img></a>
 <br></br>
 
 [![python](https://img.shields.io/badge/Python-3.12-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
