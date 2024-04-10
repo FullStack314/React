@@ -8,6 +8,8 @@
 <a href='https://www.hypech.com'>
 <img src="./images/lib.png" alt="AI-Powered Cover Letter"></img></a>
 <br></br>
+
+
 [![python](https://img.shields.io/badge/Python-3.12-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&logo=Jupyter)](https://jupyterlab.readthedocs.io/en/stable)
 [![tensorflow](https://img.shields.io/badge/TensorFlow-1.12-FF6F00.svg?style=flat&logo=tensorflow)](https://www.tensorflow.org)
@@ -68,7 +70,7 @@ When you use a fragment (<>...</>), React does not add any extra elements to the
 So, in terms of the resulting HTML structure, the only difference is the presence or absence of the `<div>` wrapper. Both approaches are valid, but using a fragment can lead to cleaner JSX code and simpler HTML output in certain situations.
 
 ### JSX
-It seems like React components are returning HTML markup. However, this is not the case. The layout of React components is mostly written using JSX. Although JSX looks like HTML, we are dealing with a way to write JavaScript. Under the hood, **JSX returned by React components is compiled into JavaScript**.
+It seems like React components are returning HTML markup. However, this is not the case. The layout of React components is mostly written using JSX. Although JSX looks like HTML, we are dealing with a way to write JavaScript. Under the hood, **JSX returned by React components is compiled into JavaScript **.
 
 The compilation is handled by Babel. Projects created with create-react-app or vite are configured to compile automatically. 
 
