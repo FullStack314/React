@@ -46,6 +46,7 @@ cd part1
 npm install     //install all the dependencies in web server
 npm run dev     //run webserver locally
 ```
+<img src="./images/vite.png" alt="AI-Powered Cover Letter"></img></a>
 When you use a fragment (<>...</>), React does not add any extra elements to the DOM, resulting in cleaner HTML output without additional nesting. However, when you don't use a fragment and don't provide a parent element explicitly, React automatically adds a `<div>` wrapper around the elements to satisfy the requirement of having a single parent element.
 
 So, in terms of the resulting HTML structure, the only difference is the presence or absence of the `<div>` wrapper. Both approaches are valid, but using a fragment can lead to cleaner JSX code and simpler HTML output in certain situations.
