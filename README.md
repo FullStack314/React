@@ -8,8 +8,6 @@
 <a href='https://www.hypech.com'>
 <img src="./images/lib.png" alt="AI-Powered Cover Letter"></img></a>
 <br></br>
-
-
 [![python](https://img.shields.io/badge/Python-3.12-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
 [![jupyter](https://img.shields.io/badge/Jupyter-Lab-F37626.svg?style=flat&logo=Jupyter)](https://jupyterlab.readthedocs.io/en/stable)
 [![tensorflow](https://img.shields.io/badge/TensorFlow-1.12-FF6F00.svg?style=flat&logo=tensorflow)](https://www.tensorflow.org)
@@ -37,24 +35,6 @@ The AI-powered solution enables customers to integrate their specialized knowled
 3. [Intuitive User Interface](#architecture)
 
 You will get Unlock Your Personalized AI Assistant Effortlessly: Scrape, Upload, and Go.
-
-> [!WARNING]  
-> **Website Scraping Policy**
-> 
-> This project utilizes web scraping techniques to gather data from various websites. It's important to note that not all websites allow scraping, and some may have strict policies against it.
->
-> **Before using this project**
->
-> Take the time to carefully read and understand the scraping policies of each website from which you intend to scrape data. These policies can usually be found in the website's terms of service or robots.txt file.
->
-> **Comply with Policies** 
->
->Ensure that you comply with the scraping policies of each website. Violating these policies could lead to consequences such as account restrictions, IP bans, or legal action.
-
-> [!NOTE] 
-> **Disclaimer**
-> 
->This project is provided for general-purpose use, and we do not take responsibility for any consequences resulting from the misuse of web scraping techniques. Users are solely responsible for ensuring compliance with website scraping policies and any associated risks.
 
 # Create React
 
@@ -115,3 +95,22 @@ pip install -r requirements.txt
 # Contribution
 
 https://www.linkedin.com/pulse/automate-your-job-search-personalized-cover-letters-powered-leo-reny-elbye
+
+> [!WARNING]  
+> **Website Scraping Policy**
+> 
+> This project utilizes web scraping techniques to gather data from various websites. It's important to note that not all websites allow scraping, and some may have strict policies against it.
+>
+> **Before using this project**
+>
+> Take the time to carefully read and understand the scraping policies of each website from which you intend to scrape data. These policies can usually be found in the website's terms of service or robots.txt file.
+>
+> **Comply with Policies** 
+>
+>Ensure that you comply with the scraping policies of each website. Violating these policies could lead to consequences such as account restrictions, IP bans, or legal action.
+
+> [!NOTE] 
+> **Disclaimer**
+> 
+>This project is provided for general-purpose use, and we do not take responsibility for any consequences resulting from the misuse of web scraping techniques. Users are solely responsible for ensuring compliance with website scraping policies and any associated risks.
+
