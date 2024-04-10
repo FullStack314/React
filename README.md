@@ -64,7 +64,7 @@ Writing components with React is easy, and by combining components, even a more 
 Do not render objects.
 
 ### 1.3 Component state, event handlers
-`import { useState } from 'react':` This line imports the useState *hook* from the react library.
+`import { useState } from 'react':` This line imports the useState **hook** from the react library.
 
 
 
