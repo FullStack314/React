@@ -32,7 +32,7 @@
 
 The AI-powered solution enables customers to integrate their specialized knowledge with OpenAI models to automate the extraction of relevant information from websites of their interest, effectively training the AI to deliver tailored results as if it were trained on their unique dataset.
 
-1. [](#part1)
+1. [Create a React App](#CreateReact)
 2. [Powered by Python](#architecture)
 3. [Intuitive User Interface](#architecture)
 
@@ -56,11 +56,28 @@ You will get Unlock Your Personalized AI Assistant Effortlessly: Scrape, Upload,
 > 
 >This project is provided for general-purpose use, and we do not take responsibility for any consequences resulting from the misuse of web scraping techniques. Users are solely responsible for ensuring compliance with website scraping policies and any associated risks.
 
-# Overview
+# Create React
 
-There's a saying that goes, 'the job hunt is a job in itself.' Indeed, a significant amount of energy and time is often spent tailoring cover letters to match each job application. With the assistance of an AI, we can automate this process, drastically reducing the time it takes to prepare a cover letter to just a few seconds with a simple process of Scraping, Clicking, and Sending. Not only will your cover letter be fully customized, but it will also maintain a professional tone. Sounds promising, doesn't it? That's because it truly is.
+Create a React App in local webserver. 
+``` 
+npm create vite@latest part1 -- --template react 
+cd part1
+npm install     //install all the dependencies in web server
+npm run dev     //run webserver locally
+```
+When you use a fragment (<>...</>), React does not add any extra elements to the DOM, resulting in cleaner HTML output without additional nesting. However, when you don't use a fragment and don't provide a parent element explicitly, React automatically adds a <div> wrapper around the elements to satisfy the requirement of having a single parent element.
 
-"Welcome to AI-Powered Job Assistance! Our innovative platform automatically tailors cover letters by scraping job descriptions and seamlessly integrating them with your resume. Review before sending and find your perfect fit with ease. Your dream job awaits!"
+So, in terms of the resulting HTML structure, the only difference is the presence or absence of the <div> wrapper. Both approaches are valid, but using a fragment can lead to cleaner JSX code and simpler HTML output in certain situations.
+
+### JSX
+It seems like React components are returning HTML markup. However, this is not the case. The layout of React components is mostly written using JSX. Although JSX looks like HTML, we are dealing with a way to write JavaScript. Under the hood, ** JSX returned by React components is compiled into JavaScript **.
+
+The compilation is handled by Babel. Projects created with create-react-app or vite are configured to compile automatically. 
+
+In practice, JSX is much like HTML with the distinction that with JSX you can easily embed dynamic content by writing appropriate JavaScript within curly braces. The idea of JSX is quite similar to many templating languages, such as Thymeleaf used along with Java Spring, which are used on servers.
+
+Writing components with React is easy, and by combining components, even a more complex application can be kept fairly maintainable. Indeed, a core philosophy of React is composing applications from many specialized reusable components.
+
 
 # Technology Stack
 
