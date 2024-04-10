@@ -65,12 +65,12 @@ cd part1
 npm install     //install all the dependencies in web server
 npm run dev     //run webserver locally
 ```
-When you use a fragment (<>...</>), React does not add any extra elements to the DOM, resulting in cleaner HTML output without additional nesting. However, when you don't use a fragment and don't provide a parent element explicitly, React automatically adds a <div> wrapper around the elements to satisfy the requirement of having a single parent element.
+When you use a fragment (<>...</>), React does not add any extra elements to the DOM, resulting in cleaner HTML output without additional nesting. However, when you don't use a fragment and don't provide a parent element explicitly, React automatically adds a `<div>` wrapper around the elements to satisfy the requirement of having a single parent element.
 
-So, in terms of the resulting HTML structure, the only difference is the presence or absence of the <div> wrapper. Both approaches are valid, but using a fragment can lead to cleaner JSX code and simpler HTML output in certain situations.
+So, in terms of the resulting HTML structure, the only difference is the presence or absence of the `<div>` wrapper. Both approaches are valid, but using a fragment can lead to cleaner JSX code and simpler HTML output in certain situations.
 
 ### JSX
-It seems like React components are returning HTML markup. However, this is not the case. The layout of React components is mostly written using JSX. Although JSX looks like HTML, we are dealing with a way to write JavaScript. Under the hood, ** JSX returned by React components is compiled into JavaScript **.
+It seems like React components are returning HTML markup. However, this is not the case. The layout of React components is mostly written using JSX. Although JSX looks like HTML, we are dealing with a way to write JavaScript. Under the hood, **JSX returned by React components is compiled into JavaScript**.
 
 The compilation is handled by Babel. Projects created with create-react-app or vite are configured to compile automatically. 
 
