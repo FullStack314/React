@@ -1,12 +1,12 @@
-### AI BLOCKS anybody cannot skip
-> - AI-Powered, Customized, Cover Letters
+### React
+> - Each part is an independent app
 > - AI Assistant Job Flow Automator. 
 > - Automate the customization of cover letters tailored to your resume and the unique requirements outlined in the job description extracted.
 
 <div align="center">
 
 <a href='https://www.hypech.com'>
-<img src="./images/ai-blocks.jpg" alt="AI-Powered Cover Letter" height=800></img></a>
+<img src="./images/libs.png" alt="AI-Powered Cover Letter" height=800></img></a>
 <br></br>
 
 
@@ -15,7 +15,6 @@
 [![tensorflow](https://img.shields.io/badge/TensorFlow-1.12-FF6F00.svg?style=flat&logo=tensorflow)](https://www.tensorflow.org)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 [![pydocstyle](https://img.shields.io/badge/pydocstyle-enabled-AD4CD3)](http://www.pydocstyle.org/en/stable/)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![GitHub Release](https://img.shields.io/github/v/release/aiXpertLab/AI-Powered-Automatically-Customize-Cover-Letter)](https://github.com/aiXpertLab/AI-Powered-Automatically-Customize-Cover-Letter/releases)
@@ -33,9 +32,9 @@
 
 The AI-powered solution enables customers to integrate their specialized knowledge with OpenAI models to automate the extraction of relevant information from websites of their interest, effectively training the AI to deliver tailored results as if it were trained on their unique dataset.
 
-- [GPT-4 from OpenAI](#architecture)
-- [Powered by Python](#architecture)
-- [Intuitive User Interface](#architecture)
+1. [](#part1)
+2. [Powered by Python](#architecture)
+3. [Intuitive User Interface](#architecture)
 
 You will get Unlock Your Personalized AI Assistant Effortlessly: Scrape, Upload, and Go.
 
@@ -94,6 +93,7 @@ https://chromedriver.chromium.org/
 ```bash
 pip install -r requirements.txt
 ```
+# Part1
 
 # Contribution
 
