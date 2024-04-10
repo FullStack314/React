@@ -6,7 +6,7 @@
 <div align="center">
 
 <a href='https://www.hypech.com'>
-<img src="./images/libs.png" alt="AI-Powered Cover Letter" height=800></img></a>
+<img src="./images/lib.png" alt="AI-Powered Cover Letter" height=800></img></a>
 <br></br>
 
 
