@@ -65,7 +65,22 @@ Do not render objects.
 
 ### 1.3 Component state, event handlers
 `import { useState } from 'react':` This line imports the useState **hook** from the react library.
+``` 
+const App = (props) => {
+  const {counter} = props
+  return (
+    <div>{counter}</div>
+  )} 
 
+export default App```
+refactor:
+```
+const App = (props) => {
+  const counter = props.counter; // Accessing the 'counter' property directly
+  return (
+    <div>{counter}</div>
+  );
+};```
 
 
 
