@@ -31,7 +31,7 @@
 
 The AI-powered solution enables customers to integrate their specialized knowledge with OpenAI models to automate the extraction of relevant information from websites of their interest, effectively training the AI to deliver tailored results as if it were trained on their unique dataset.
 
-1. [1 Create a React App](#CreateReact)
+1. [Create a React App](#CreateReact)
 2. [Powered by Python](#architecture)
 3. [Intuitive User Interface](#architecture)
 
@@ -83,6 +83,17 @@ const App = (props) => {
   );
 };
 ```
+
+# 2. Communicating with server
+```
+const addNote = (event) => {
+  event.preventDefault()
+  console.log('button clicked', event.target)
+}
+```
+The event parameter is the event that triggers the call to the event handler function:
+
+The event handler immediately calls the event.preventDefault() method, which prevents the default action of submitting a form. The default action would, among other things, cause the page to reload.
 
 
 
