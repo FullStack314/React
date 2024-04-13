@@ -4,7 +4,7 @@
     ".gitignore": true,
     "LICENSE": true,
     "vite.config.js":true
-    "package.json":true
+    "package.json":false
     "package-lock.json":true
     "desktop.ini": true,
   }
