@@ -6,7 +6,7 @@
 <div align="center">
 
 <a href='https://www.hypech.com'>
-<img src="./images/lib.png" alt="AI-Powered Cover Letter"></img></a>
+<img src="./images/vite.png" alt="AI-Powered Cover Letter"></img></a>
 <br></br>
 
 [![python](https://img.shields.io/badge/Python-3.12-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org)
@@ -35,21 +35,30 @@ The AI-powered solution enables customers to integrate their specialized knowled
 2. [Powered by Python](#architecture)
 3. [Intuitive User Interface](#architecture)
 
-You will get Unlock Your Personalized AI Assistant Effortlessly: Scrape, Upload, and Go.
-
-# 1. Create React
-
-Create a React App in local webserver. 
+# 1. Vite
+In traditional web applications, the browser is "dumb". It only fetches HTML data from the server, and all application logic is on the server. A server can be created using Java Spring , Python Flask or Ruby on Rails to name just a few examples.
 ``` 
 npm create vite@latest part1 -- --template react 
 cd part1
 npm install     //install all the dependencies in web server
 npm run dev     //run webserver locally
 ```
-<img src="./images/vite.png" alt="AI-Powered Cover Letter"></img></a>
+The entering point is `./index.html`, which points to `<script type="module" src="/src/main.jsx"></script>`, which points to: `import App from './App.jsx'`
+
+so, finally, we are reaching **App.jsx** The compilation is handled by `Babel`. 
+
+
+# 2. Strucutre
+
+#### JSON Server
+HP11(React) > npx json-server --port 3001 --watch part1/data/db.json
+
+
+
 When you use a fragment (<>...</>), React does not add any extra elements to the DOM, resulting in cleaner HTML output without additional nesting. However, when you don't use a fragment and don't provide a parent element explicitly, React automatically adds a `<div>` wrapper around the elements to satisfy the requirement of having a single parent element.
 
 So, in terms of the resulting HTML structure, the only difference is the presence or absence of the `<div>` wrapper. Both approaches are valid, but using a fragment can lead to cleaner JSX code and simpler HTML output in certain situations.
+
 
 ### 1.1 JSX
 It seems like React components are returning HTML markup. However, this is not the case. The layout of React components is mostly written using JSX. Although JSX looks like HTML, we are dealing with a way to write JavaScript. Under the hood, **JSX returned by React components is compiled into JavaScript **.
